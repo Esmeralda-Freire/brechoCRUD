@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    }
+   
+    header {
+      position:relative;
+      width: 100%;
+      top: 0;
+      background-color: #BDC0FF;
+      box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+      padding: 6%;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+    }
+   
+   .logo-brepro {
+     display: flex;
+     align-items:center;
+    }
+   
+    main {
+      display: grid;
+    }
+   
+    form {
+      display: flex;
+      flex-direction:row;
+      padding: 5%;
+      justify-content: space-between;
+      
+    }
+  
+    form ::placeholder {
+      color:#B100CE;
+    }
+   
+    form input, textarea {
+      padding: 8%;
+      border-radius: 20px;
+      border-color: #B100CE;
+      width: 150px;
+      border-width: 1px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+    }
+  
+    .form-button input{
+      padding: 13px;
+      background-color: #FCE3F0;
+    }
+  
+    input:focus {
+      outline: 0;
+      background-color: #FCE3F0;
+  } 
+  
+  .form-button input:focus {
+    background-color: #b300ce98;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  table thead {
+    background-color: #7933D2;
+  }
+  
+  table thead th {
+    padding: 1rem;
+    color: #FCE3F0;
+  }
+  
+  table tbody {
+    background-color: #FCE3F0;
+    padding: 0.5rem;
+    color: #21007D;
+    text-align: center;
+  }
