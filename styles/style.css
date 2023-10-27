@@ -48,7 +48,7 @@
       text-align: center;
     }
   
-    .form-button input{
+    .form_action--button input{
       padding: 13px;
       background-color: #FCE3F0;
     }
@@ -58,7 +58,7 @@
       background-color: #FCE3F0;
   } 
   
-  .form-button input:focus {
+  .form_action--button input:focus {
     background-color: #b300ce98;
   }
   
@@ -80,4 +80,14 @@
     padding: 0.5rem;
     color: #21007D;
     text-align: center;
+  }
+
+  button {
+      border-radius: 20px;
+      border-color: #B100CE;
+      border-width: 1px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      padding: 1px;
+      color:#B100CE;
   }

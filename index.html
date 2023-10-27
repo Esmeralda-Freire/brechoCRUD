@@ -14,48 +14,50 @@
     </header>
  
     <main>
-   <form autocomplete="off" onsubmit="onFormSubmit()">
-    <div>
-        <label for="productCode"></label>
-        <input type="text" name="productCode" id="productCode" placeholder="Product code">
-    </div>
- 
-    <div>
-        <label for="product"></label>
-        <input type="text" name="product" id="product" placeholder="Product">
-    </div>
- 
-    <div>
-        <label for="qty"></label>
-        <input type="number" name="qty" id="qty" placeholder="Quantity">
-    </div>
- 
-    <div>
-        <label for="price"></label>
-        <input type="number" name="price" id="price" placeholder="Price">
-    </div>
- 
-    <div class="form-button">
-        <input type="submit" value="submit">
-        <input type="reset" value="reset">
-    </div>
-   </form>
- 
-   <aside>
-    <table>
-        <div class="recordsList">
-        <thead>
-            <th>Product code</th>
-            <th>Product</th>
-            <th>Quantity</th>
-            <th>Price</th>
-            <th>Action</th>
-        </thead>
-        </div>
-        <tbody></tbody>
-    </table>
-   </aside>
+        <form autocomplete="off" onsubmit="onFormSubmit()">
+            <div>
+                <label for="productCode"></label>
+                <input type="text" name="productCode" id="productCode" placeholder="Product Code">
+            </div>
+            <div>
+                <label for="product"></label>
+                <input type="text" name="product" id="product" placeholder="Product">
+            </div>
+            <div>
+                <label for="qty"></label>
+                <input type="number" name="qty" id="qty" placeholder="Quantity">
+            </div>
+            <div>
+                <label for="perPrice"></label>
+                <input type="number" name="perPrice" id="perPrice" placeholder="Price">
+            </div>
+
+            <div class="form_action--button">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+
+        <td>
+            <table class="list" id="storeList">
+                <thead>
+                    <tr>
+                        <th>Product Code</th>
+                        <th>Product Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Actions </th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </td>
+   
    </main>
+
+   <script src="script.js"></script>
  
 </body>
 </html>
